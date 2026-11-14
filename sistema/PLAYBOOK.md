@@ -31,14 +31,24 @@ Guia que toda rotina automática segue. Leia inteiro antes de produzir.
 - Carrossel: 1080×1350, 7 a 10 slides, capa com gancho forte; slide 2 também precisa prender; último slide = CTA. Estilos que usamos: conversa de WhatsApp, número gigante, manchete "REVÊ EXPLICA", checklist para salvar, print de post.
 - Reel: 1080×1920, 20 a 45 s, gancho nos primeiros 2 s, uma cena a cada 2–4 s, texto grande na tela, final com pergunta para comentar.
 
-## Grade diária
+## Grade diária (decisão do Victor em 14/11/2026: SEM Reels automáticos, só posts de feed)
+Os Reels gerados por aqui (texto animado + voz) ficaram fracos: o Victor só quer vídeo no estilo 3D do Roberto, que ele mesmo produz. As rotinas NÃO fazem Reel.
+
 | Horário (Brasília) | Formato |
 |---|---|
-| 9h | Reel 1 (educativo / Roberto Responde / curiosidade) |
-| 12h | Carrossel (alterna estilos) |
-| 19h seg–sex, 20h sáb–dom | Reel 2 (história Roberto e Sandra / humor / identificação) |
+| 9h | Post de atualidade: imagem única ou carrossel curto (estilo manchete "REVÊ EXPLICA" ou print de post) |
+| 12h | Carrossel de atualidade (7–10 slides) |
+| 19h seg–sex, 20h sáb–dom | Post de atualidade com humor/meme (imagem única ou carrossel), feito pra compartilhar |
 
-Não repetir tema dos últimos 14 dias (ver `LOG.md`). Alternar temas: aluguel x financiamento, FGTS, autônomo, nome sujo, documentos, mitos, curiosidades da casa própria, humor do dia a dia de quem aluga, construção de casa geminada (melhor desempenho até agora: 4.301 views).
+## Atualidade (o motor do perfil)
+O Victor quer posts ligados aos assuntos do momento (trending do X/Twitter, Google, notícia do dia), porque atualidade é o que faz clicar.
+- Antes de criar, pesquisar o que está em alta HOJE no Brasil: WebSearch (modo extended) por "assuntos do momento hoje", "trending topics Brasil hoje", notícias do dia (g1, UOL, CNN Brasil, InfoMoney); WebFetch em https://trends24.in/brazil/ e https://trends.google.com.br/trending?geo=BR quando der.
+- Escolher o assunto mais quente que tenha uma ponte natural com casa própria, aluguel, dinheiro, família, trabalho ou o dia a dia de quem paga aluguel. Exemplos de ponte: jogo/final de campeonato → "o aluguel não para nem em dia de final"; salário mínimo/13º/IR/juros/inflação → impacto no bolso e na casa; Black Friday → "parcela que cabe vs. parcela da casa"; reality/série do momento → piada com o Seu Bento ou o Roberto; data comemorativa → casa.
+- Fatos do assunto confirmados em pelo menos 2 fontes do dia. Nada de inventar número, declaração ou notícia.
+- PROIBIDO pegar carona em: tragédia, morte, crime, violência, doença, desastre, política partidária, eleição, religião, polêmica que ataque pessoas. Sem foto, nome em situação negativa ou fala inventada de pessoa real; sem logo/escudo/imagem de marca, time, série ou celebridade (só texto e arte própria).
+- Gancho na primeira linha e na capa. Usar humor e a linguagem da internet brasileira, sem forçar.
+
+Não repetir o mesmo assunto/ângulo dos últimos 7 dias (ver `LOG.md`). Quando não houver assunto quente com ponte segura, usar tema atemporal que funciona (aluguel x financiamento, FGTS, autônomo, nome sujo, documentos, mitos, casa geminada).
 
 ## Como produzir e publicar (passo a passo técnico)
 1. Clonar: `git clone --depth 1 https://github.com/8wrct6t76y-hash/reve-m-dia /home/claude/reve-m-dia` (se o repo não estiver na sessão, chamar `add_repo` owner `8wrct6t76y-hash`, repo `Reve-m-dia`, access `push`).
@@ -66,5 +76,9 @@ Não repetir tema dos últimos 14 dias (ver `LOG.md`). Alternar temas: aluguel x
 ## Aprender e melhorar
 Toda segunda, a rotina de revisão puxa os números dos últimos 7 e 30 dias (views, alcance, salvamentos, compartilhamentos, comentários, tempo médio assistido, skip rate) e atualiza a seção "O que está funcionando" abaixo. As rotinas de produção seguem essa seção.
 
+## Imagem única
+Para `create_image_post`: um JPEG 1080×1350 gerado com `render_slides.py` (uma só `<section class="s">`).
+
 ## O que está funcionando
+- (14/11/2026) O Victor achou o Reel automático das 17h (texto animado + voz) "ruinzinho" e pediu para parar com Reels automáticos. Foco: 3 posts de feed por dia ligados à atualidade.
 - (14/11/2026) Melhores até agora: casa geminada / construção (4.301 views), Roberto Responde moedas (1.434), salário mínimo (1.460), FGTS e conta exagerada costumam ir bem. Vídeos rápidos sem história ficaram ~200 views.
