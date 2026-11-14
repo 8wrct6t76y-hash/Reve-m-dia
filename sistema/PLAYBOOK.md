@@ -31,6 +31,24 @@ Guia que toda rotina automática segue. Leia inteiro antes de produzir.
 - Carrossel: 1080×1350, 7 a 10 slides, capa com gancho forte; slide 2 também precisa prender; último slide = CTA. Estilos que usamos: conversa de WhatsApp, número gigante, manchete "REVÊ EXPLICA", checklist para salvar, print de post.
 - Reel: 1080×1920, 20 a 45 s, gancho nos primeiros 2 s, uma cena a cada 2–4 s, texto grande na tela, final com pergunta para comentar.
 
+## Rodízio de estéticas (pedido do Victor em 14/11/2026)
+O Victor não quer uma estética só ("senão fica chato"). Cada post usa UMA das estéticas abaixo, e a escolha segue estas regras:
+- **Nunca repetir a mesma estética em dois posts seguidos**, nem duas vezes no mesmo dia. Antes de criar, ler a coluna "Estética" das últimas linhas do `LOG.md`.
+- **Favorita do Victor: "Opinião" (print de tweet).** O perfil da Revê no topo (foto, nome "Revê", @reve.imob) e embaixo uma opinião curta e afiada, como um post do X/Twitter, sobre o assunto do dia. Usar pelo menos 1 vez por dia, de preferência no post das 9h ou no da noite. Pode ser imagem única ou carrossel em que cada slide é um "tweet" ou uma resposta.
+- Ao longo da semana, passar por todas.
+
+| Estética | Como é | Melhor para |
+|---|---|---|
+| Opinião (print de tweet) | Card de post: avatar + "Revê" + @reve.imob, texto grande, contadores de curtida/repost | Opinião sobre o assunto do dia, frase polêmica leve |
+| Editorial atualidade | Fundo marinho com grade, Inter Display 800, data em serifa itálica (modelo `carrossel_atualidade_republica.html`) | Notícia do dia explicada pro bolso |
+| Conversa de WhatsApp | Roberto x Sandra, Zé, Seu Bento, fundo bege `#ECE5DD` | Humor e identificação |
+| Número gigante | Um número em amarelo enorme + 1 frase | Conta de aluguel, salário, FGTS |
+| Fato ou fake | Carimbo FATO/FAKE em vermelho/verde | Boato do dia, mitos do MCMV |
+| Checklist para salvar | Lista com ícones de check | Documentos, passos, dicas |
+| Manchete "REVÊ EXPLICA" | Tarja de jornal + explicação em slides | Mudança de regra, notícia de economia |
+
+Registrar no `LOG.md` a estética usada em cada post (na coluna Formato, ex.: "Imagem única · Opinião").
+
 ## Grade diária (decisão do Victor em 14/11/2026: SEM Reels automáticos, só posts de feed)
 Os Reels gerados por aqui (texto animado + voz) ficaram fracos: o Victor só quer vídeo no estilo 3D do Roberto, que ele mesmo produz. As rotinas NÃO fazem Reel.
 
@@ -85,4 +103,5 @@ Para `create_image_post`: um JPEG 1080×1350 gerado com `render_slides.py` (uma 
 
 ## O que está funcionando
 - (14/11/2026) O Victor achou o Reel automático das 17h (texto animado + voz) "ruinzinho" e pediu para parar com Reels automáticos. Foco: 3 posts de feed por dia ligados à atualidade.
+- (14/11/2026, noite) O Victor está gostando dos posts e AMOU a estética "Opinião" (perfil da Revê + opinião embaixo, estilo tweet). Pediu para alternar estéticas sempre: ver "Rodízio de estéticas".
 - (14/11/2026) Melhores até agora: casa geminada / construção (4.301 views), Roberto Responde moedas (1.434), salário mínimo (1.460), FGTS e conta exagerada costumam ir bem. Vídeos rápidos sem história ficaram ~200 views.
