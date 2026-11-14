@@ -39,7 +39,7 @@ O Victor não quer uma estética só ("senão fica chato"). Cada post usa UMA da
 
 | Estética | Como é | Melhor para |
 |---|---|---|
-| Opinião (print de tweet) | Card de post: avatar + "Revê" + @reve.imob, texto grande, contadores de curtida/repost | Opinião sobre o assunto do dia, frase polêmica leve |
+| Opinião (print de tweet) | Card branco sobre fundo marinho: avatar REVÊ + "Revê" + @reve.imob, texto grande com trecho em amarelo, ícones sem números (nunca inventar contagens). Modelo aprovado: `sistema/exemplos/opiniao_tweet.html` | Opinião sobre o assunto do dia, frase polêmica leve |
 | Editorial atualidade | Fundo marinho com grade, Inter Display 800, data em serifa itálica (modelo `carrossel_atualidade_republica.html`) | Notícia do dia explicada pro bolso |
 | Conversa de WhatsApp | Roberto x Sandra, Zé, Seu Bento, fundo bege `#ECE5DD` | Humor e identificação |
 | Número gigante | Um número em amarelo enorme + 1 frase | Conta de aluguel, salário, FGTS |
