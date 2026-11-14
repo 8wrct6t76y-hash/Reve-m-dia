@@ -40,6 +40,9 @@ Os Reels gerados por aqui (texto animado + voz) ficaram fracos: o Victor só que
 | 12h | Carrossel de atualidade (7–10 slides) |
 | 19h seg–sex, 20h sáb–dom | Post de atualidade com humor/meme (imagem única ou carrossel), feito pra compartilhar |
 
+## Pauta antecipada
+Antes de escolher o assunto, leia `sistema/PAUTA.md`. Se houver pauta para a data e o horário da execução, use-a.
+
 ## Atualidade (o motor do perfil)
 O Victor quer posts ligados aos assuntos do momento (trending do X/Twitter, Google, notícia do dia), porque atualidade é o que faz clicar.
 - Antes de criar, pesquisar o que está em alta HOJE no Brasil: WebSearch (modo extended) por "assuntos do momento hoje", "trending topics Brasil hoje", notícias do dia (g1, UOL, CNN Brasil, InfoMoney); WebFetch em https://trends.google.com.br/trending?geo=BR quando der. ATENÇÃO: o trends24.in devolve cache antigo (testado em 14/11/2026, mostrava trends de 2024) — não confiar nele; confirmar sempre com notícias datadas de hoje. Datas comemorativas e feriados do dia/da semana são ganchos seguros e bons (ex.: 15/11 Proclamação da República → "O Brasil deixou de ter dono. E a sua casa, ainda tem?").
